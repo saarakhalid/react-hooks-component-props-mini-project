@@ -1,9 +1,12 @@
 // ArticleList.js
 import React from 'react';
+import blogData from '../data/blog';
 import Article from './Article';
 
 function ArticleList({ posts }) {
+    console.log(posts);
   return (
+    <div>
     <main>
       {posts.map(post => (
         <Article
@@ -14,6 +17,7 @@ function ArticleList({ posts }) {
         />
       ))}
     </main>
+    </div>
   );
 }
 

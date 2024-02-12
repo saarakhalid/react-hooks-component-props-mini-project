@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import blogData from '../data/blog';
 
 function Header({ name }) {
   return (
